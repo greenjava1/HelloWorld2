@@ -24,7 +24,7 @@ public class DownloadTask extends AsyncTask<Void,Integer,Boolean> {
     }
 
     @Override
-    protected  void onProgressUpdate(Integer... values)
+    protected  void onProgressUpdate(Integer... values) 
     {
         Log.e(TAG, "DownloadTask onProgressUpdate~~~");
     }
